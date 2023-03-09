@@ -1,0 +1,28 @@
+body {
+    user-select: none; 
+    background-color: slategray;
+}
+input, table {
+    width: 100%;
+    box-sizing: border-box;
+}
+input {
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+td {
+    background: linear-gradient(-10deg, #888, #fff);
+    width: 25%;
+    text-align: center;
+    height: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+td:active {
+    background: linear-gradient(-10deg, #fff, #888);
+}
+div {
+    background: slategray;
+    padding: 150px;
+    border-radius: 5px;
+}
